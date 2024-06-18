@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" modified="2024-06-15T05:36:31.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CFnFoMf__Q2_bpBg1tD1" version="24.5.4" type="device">
+  <diagram name="Página-1" id="YSYYsvw_EFm8Yg9-bKG3">
+    <mxGraphModel dx="874" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-1" target="qwLFFadUZh3KHrhPD4Oa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-1" value="&lt;b&gt;PROCESO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Gestión de Capacitaciones&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-2" target="qwLFFadUZh3KHrhPD4Oa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-2" value="&lt;b&gt;ENTRADA:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Empresa con empleados a capacitar&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-3" value="&lt;b&gt;SALIDA:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Empleados capacitados&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-4" target="qwLFFadUZh3KHrhPD4Oa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-4" value="&lt;b&gt;OBJETIVO:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Brindar capacitaciones de distintos rubros&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-5" value="&lt;b&gt;RECURSOS HUMANOS:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Administrador&lt;/div&gt;&lt;div&gt;Personal de mantenimiento&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-6" target="qwLFFadUZh3KHrhPD4Oa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-6" value="&lt;b&gt;HERRAMIENTAS:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Bases de datos&lt;/div&gt;&lt;div&gt;Computadoras&lt;/div&gt;&lt;div&gt;Sistema de recordatorio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="330" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-7" value="&lt;b&gt;INFORMACIÓN:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Datos de empresa&lt;/div&gt;&lt;div&gt;Rubros disponibles&lt;/div&gt;&lt;div&gt;Material multimedia&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="420" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.407;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386.98" y="289.99999999999994" as="targetPoint" />
+            <mxPoint x="370" y="451.96" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="387" y="451.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-8" value="&lt;b&gt;INFRAESTRUCTURA:&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ubicación física&lt;/div&gt;&lt;div&gt;Electricidad&lt;/div&gt;&lt;div&gt;Internet&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.136;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-5" target="qwLFFadUZh3KHrhPD4Oa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qwLFFadUZh3KHrhPD4Oa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qwLFFadUZh3KHrhPD4Oa-7" target="qwLFFadUZh3KHrhPD4Oa-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
