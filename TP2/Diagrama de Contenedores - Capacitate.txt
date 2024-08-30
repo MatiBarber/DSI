@@ -1,0 +1,42 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Container.puml
+
+LAYOUT_TOP_DOWN()
+'LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+AddElementTag("microService", $shape=EightSidedShape(), $bgColor="CornflowerBlue", $fontColor="white", $legendText="micro service\neight sided")
+AddElementTag("storage", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $fontColor="white")
+
+Person(user1, "Usuario Cliente", "Empleado al que se le brinda capacitación.")
+
+Person(user2, "Usuario 'Capacitate'", "Empleado de la empresa 'Capacitate'.")
+
+Person(company, "Empresa cliente", "Solicita capacitaciones para sus empleados")
+
+System_Boundary(c1, "Sistema 'Capacitate'") {
+    
+    Container(frontend, "Front-End", "HTML, CSS y Javascript", "interfaz de usuario interactiva")
+
+    Container(backend, "Back-end", "Electron", "Se empaqueta la aplicación web junto con un navegador web en un solo ejecutable de escritorio")
+
+    ContainerDb(database,"Base de datos", "MySQL", "Almacenará los tipos de usuarios, capacitaciones, etc.")    
+}
+
+Rel_R(user1, frontend, "Servicio de capacitacion")
+
+Rel_L(company, frontend, "Solicitudes vía página web")
+
+Rel_D(user2, frontend, "Gestion de capacitaciones")
+
+Rel(frontend, backend, "Procesa acciones de usuarios")
+
+Rel(backend, database, "Realiza consultas")
+
+Lay_D(frontend, backend)
+
+Lay_D(backend, database)
+@enduml

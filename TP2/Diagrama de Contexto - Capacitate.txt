@@ -1,0 +1,23 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+
+LAYOUT_TOP_DOWN()
+'LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+Person(user1, "Usuario Cliente", "Empleado al que se le brinda capacitación.")
+
+Person(user2, "Usuario 'Capacitate'", "Empleado de la empresa 'Capacitate'.")
+
+System(website, "Página web", "Vía a traves de la cual la empresa brinda las capacitaciones")
+
+Person(company, "Empresa cliente", "Solicita capacitaciones para sus empleados")
+
+Rel_U(user1, website, "Servicio de capacitacion")
+
+Rel_D(company, website, "Solicitudes vía página web")
+
+Rel_R(user2, website, "Gestion de capacitaciones")
+@enduml
